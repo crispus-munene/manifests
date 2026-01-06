@@ -26,3 +26,9 @@ patches:
   target:
     kind: Deployment
     name: cache-server
+
+images:
+  - name: gcr.io/ml-pipeline/frontend
+    newName: ghcr.io/kubeflow/pipelines/frontend
+    newTag: 2.0.0
+
